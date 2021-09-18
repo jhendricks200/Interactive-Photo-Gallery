@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/baguetteBox.min.css">
+
+  <head
+  	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/baguetteBox.min.css">
     <title>Photo Gallery</title>
   </head>
 
 
 <body>
-<main>
-  <div class="search">
-      <div class="in"><input type="search" name="search" id="search" placeholder="Search">
-      </div>
 
-  <div class="gallery">
+  <header>
+   <input type="search" name="search" id="search" placeholder="Search">
+  </header>
+
+
+ <main>
+
+   <div class="gallery">
+
     <a href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
         <img src="photos/thumbnails/01.jpg" alt="First image">
     </a>
+
     <a href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of
           the snow on the mountains from here." alt="Second image">
             <img src="photos/thumbnails/02.jpg">
           </a>
+
           <a href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture
           of the canyon and trees below." alt="Third image">
             <img src="photos/thumbnails/03.jpg">
           </a>
+
           <a href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold
           but didn’t snow today. " alt="Fourth image">
             <img src="photos/thumbnails/04.jpg">
@@ -75,6 +84,8 @@
   </main>
 
 
-
-  <script src="js/baguetteBox.min.js"></script>​
+    <script src="JS/searchFilter.js"></script>
+    <script src="JS/baguetteBox.min.js"></script>​
+    <script src="JS/app.js"></script>
   </body>
+  </html>

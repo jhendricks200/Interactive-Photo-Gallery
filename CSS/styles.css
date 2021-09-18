@@ -1,0 +1,21 @@
+ body{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ header input{
+  display: block;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+
+.gallery {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 45px auto;
+}
