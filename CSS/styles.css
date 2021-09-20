@@ -3,7 +3,7 @@
   margin: 0;
 }
 
- header input{
+.searchbox {
   display: block;
   width: 25%;
   margin: auto;
